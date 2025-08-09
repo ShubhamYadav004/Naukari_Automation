@@ -2,7 +2,7 @@
 <suite name="Naukri Resume Upload Suite">
     <test name="Naukri Resume Update Test">
         <classes>
-            <class name="Resume_Update.Naukari_ResumeUpdate_Humanized"/>
+            <class name="Resume_Update.Naukari_ResumeUpdate"/>
         </classes>
     </test>
 </suite>

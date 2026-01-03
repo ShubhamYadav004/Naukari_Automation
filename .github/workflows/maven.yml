@@ -1,5 +1,4 @@
 name: Naukari Automation Framework
-
 on:
   push:
     branches: "main"

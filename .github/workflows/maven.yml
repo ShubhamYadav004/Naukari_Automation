@@ -39,7 +39,7 @@ jobs:
           test-output/reports/
           target/surefire-reports/
           logs/
-    
+  
       - name: Publish Test Report
         if: always()
         uses: dorny/test-reporter@v1

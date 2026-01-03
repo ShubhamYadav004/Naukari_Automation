@@ -8,7 +8,7 @@ on:
   workflow_dispatch:   
 jobs:
   build:
-    runs-on: DESKTOP-KSST5GC
+    runs-on: self-hosted
     permissions:
        contents: read
        checks: write

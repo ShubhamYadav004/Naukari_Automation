@@ -22,6 +22,10 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
+      - name: Set PowerShell Execution Policy
+        run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+        shell: pwsh
+
       - name: Execute Test
         run: mvn clean test -Dsuite=suite -X
       - name: Upload a Build Artifact

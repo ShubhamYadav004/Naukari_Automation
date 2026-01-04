@@ -23,7 +23,7 @@ jobs:
           cache: maven
 
       - name: Set PowerShell Execution Policy
-        run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+        run: powershell.exe -Command "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process"
         shell: cmd
 
       - name: Execute Test
